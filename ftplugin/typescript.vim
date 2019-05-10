@@ -11,7 +11,7 @@ setlocal commentstring=//\ %s
 
 " Set 'formatoptions' to break comment lines but not other lines,
 " " and insert the comment leader when hitting <CR> or using "o".
-setlocal formatoptions-=t formatoptions+=croql
+" setlocal formatoptions-=t formatoptions+=croql
 
 setlocal suffixesadd+=.ts,.tsx
 
