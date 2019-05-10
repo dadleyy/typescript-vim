@@ -1,4 +1,4 @@
-if exists("b:did_ftplugin")
+if exists("b:did_ftplugin") || get(g:, 'typescript_indent_disable', 0)
   finish
 endif
 let b:did_ftplugin = 1
